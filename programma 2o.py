@@ -14,6 +14,6 @@ if h<0:
 else:
     eleg=False
 if eleg and h==0:
-    print "είναι παράσταση"
+    print "parastasi"
 elif eleg==False:
-    print "δεν είναι παράσταση"
+    print "oxi parastasi"
