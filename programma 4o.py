@@ -1,5 +1,5 @@
 # -*- coding: cp1253 -*-
-n=raw_input("δώσε αριθμούς")
+n=raw_input("dwse noumero")
 l=list(n)
 megethos=len(l)
 m=max(l)
@@ -47,4 +47,4 @@ if fmeg!=0:
     mo=athroisma/megethos
     print mo
 elif fmeg==0:
-    print ("αδύνατη πράξη")
+    print ("mi epitrepti")
