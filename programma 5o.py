@@ -1,7 +1,7 @@
 i= 1
 for i in range(1000):
     n = raw_input("dwse noumero")
-    l = int (n)
+    l = len (n)
     
     if l > 0 and l <10:
         print ("is harshad number")
