@@ -1,6 +1,6 @@
 i= 1
 for i in range(1000):
-    n = raw_input("δώσε νούμερο: ")
+    n = raw_input("dwse noumero")
     l = int (n)
     
     if l > 0 and l <10:
@@ -18,7 +18,7 @@ for i in range(1000):
             if (l % g)==0:
                 print l
         elif g==0:
-            print ("αδύνατη πράξη")
+            print ("mi epitrepti")
     elif l>99 and l<1000:
         m= l % 10
         d=( l // 10) % 10
@@ -31,7 +31,7 @@ for i in range(1000):
             if (l % g)==0:
                 print (l)
         elif g==0:
-             print ("αδύνατη πράξη")
+             print ("mi epitrpeti")
     elif l==1000:
         print ("is a harshad number")
-        print ("αδύνατη πράξη")
+        print ("mi epitrepeti")
